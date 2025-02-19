@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Foood",
+    "slug": "food",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.vrushabh_3041.indianAccent"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "75a7dcb7-60fd-4dba-8650-7b25baeef18d"
+      }
+    },
+    "plugins": [
+      "expo-secure-store"
+    ],
+    "owner": "vrushabh_3041"
+  }
+}
